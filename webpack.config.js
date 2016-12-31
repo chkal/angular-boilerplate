@@ -1,12 +1,15 @@
 module.exports = {
   entry: {
-    index: "./src/main/javascript/index.js"
+    index: "./src/main/javascript/entry.ts"
   },
   output: {
     path: "./target/generated-web-resources/assets/",
     filename: "[name].js"
   },
   resolve: {
+    extensions: [
+      "", ".js", ".ts"
+    ],
     modulesDirectories: [
       "node_modules",
       "src/main/javascript"

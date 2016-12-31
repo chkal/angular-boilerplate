@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "noImplicitAny": true,
-    "sourceMap": true
-  },
-  "files": []
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
 }

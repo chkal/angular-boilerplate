@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-./node/node ./node/yarn/dist/bin/yarn.js $*
